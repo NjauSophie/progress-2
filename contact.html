@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOPHIE NJAU</title>
+</head>
+<h3><strong><u>My Contact information</h3></strong></u>
+<body>
+   <!--header--> 
+   <header>
+    <h2>Contact me</h2>
+    <nav aria-label="main navigation">
+        <ul type="circle">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul type="circle">
+        </nav>
+   </header>
+   <!--Main-->
+   <main>
+    <form action="#" method="post">
+        <!--Name-->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name" minlength="1" maxlength="60"><br><br>
+        <!--Email-->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com"><br><br>
+        <!--subject-->
+        <label for="subject">Subject:</label><br>
+        <select id="subject" name="subject">
+            <option value="">Choose a topic</option>
+            <option value="general enquiry">General Inquiry</option>
+            <option value="specific enquiry">Collaboration</option>
+            <option value="feedback">Feedback</option>
+            <option value="suggestions/complaints">suggestions/complaints</option>
+            </select><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required placeholder="please fill in here" minlength="5" maxlength="500"></textarea><br><br>
+        <!--Radio-->
+        <p><strong>Preferred contact method:</strong></p>
+        <input type="radio" id="email feedback" name="contact method" value="email" required>
+        <label for="email feedback">Email</label><br><br>
+        <input type="radio" id="phone call feedback" name="contact method" value="phone" required>
+        <label for="phone call feedback">Phone call</label><br><br>
+        <input type="radio" id="SMS feedback" name="contact method" value="SMS" required>
+        <label for="SMS feedback">SMS</label><br><br>
+        <audio controls>
+            <source src="audio.mp3.unknown" type="audio/mpeg">
+        </audio><br><br>
+        <button type="submit">Send Message</button><br><br>
+        <button type="reset">Clear Form</button> 
+</main>
+<footer> 
+    <p><strong><strong>Thank you for visiting my page!!!</strong></strong> </p>
+    <p><strong><strong>Hotline:+254700011100 / +254788333111|All Rights Reserved</strong></strong></p>
+</footer>
+</body>
+</html>
